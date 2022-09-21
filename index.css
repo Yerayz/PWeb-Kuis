@@ -1,0 +1,169 @@
+/* Fonts */
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+         url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 6.3em 28em;
+    max-width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -8px grey;
+    padding: 3em 2em;
+    width: 100%;
+    margin-bottom: 6em;
+}
+
+.card h1 {
+    font-size:xx-large;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 3em;
+    width:100%;
+}
+
+.card2 {
+    /* background-color: aliceblue; */
+    width: 35%;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 65%;
+}
+
+.card3 form {
+    /* background-color: aquamarine; */
+    
+    width: 100%;
+}
+
+.card2 h3 {
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card3 input{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 30px;
+    padding: 0 2em;
+    margin-bottom: 15px;
+    width: 85%;
+    appearance: none;
+}
+
+.card3 p {
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 88px;
+    padding: 0 2em;
+    margin-bottom: 15px;
+    width: 100%;
+    appearance: none;
+}
+
+button {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    background-color: #FF008E;
+    color: whitesmoke;
+}
+select:hover, button:hover {
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: #D22779;
+}
